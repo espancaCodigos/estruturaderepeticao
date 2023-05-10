@@ -1,0 +1,15 @@
+# estruturaderepeticao
+mport java.util.Random;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner ler = new Scanner(System.in);
+
+  int  volta = 10;
+    while (volta >=1) {
+      System.out.println(volta);
+      volta --;
+    }
+  
+  }
+}
