@@ -1,0 +1,21 @@
+# estruturaderepeticao
+import java.util.Random;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner ler = new Scanner(System.in);
+    System.out.println("INFORME UM NÚMERO para calcular o FAtorial");
+   int num = ler.nextInt();
+    
+int volta = num;
+    int fatorial =1;
+    
+    while (volta >= 1) {
+      fatorial = fatorial * volta;
+      
+      
+      volta--;
+    }
+  System.out.println(fatorial);
+  }
+}
