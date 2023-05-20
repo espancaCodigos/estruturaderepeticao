@@ -1,0 +1,16 @@
+# estruturaderepeticao
+import java.util.Scanner;
+
+
+class Main {
+  public static void main(String[] args) {
+Scanner ler = new Scanner(System.in);
+
+  for (int volta= 1; volta <= 10; volta++) {
+    System.out.println("te amo");
+    
+  }
+
+   
+  }
+}
