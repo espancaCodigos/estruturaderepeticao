@@ -1,0 +1,29 @@
+# estruturaderepeticao
+import java.util.Scanner;
+
+
+class Main {
+  public static void main(String[] args) {
+Scanner ler = new Scanner(System.in);
+
+    System.out.println("informe o tamanho da linha");
+    int tam = ler.nextInt();
+
+
+    int linha = 1;
+    while(linha<= tam){
+      
+    
+    int volta =1;
+    while (volta <= tam){
+     System.out.printf(" *");
+      volta ++;
+    }
+      System.out.println();
+      linha ++;
+    }
+   
+
+   
+  }
+}
